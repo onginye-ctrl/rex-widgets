@@ -8,9 +8,9 @@
       "title": "Internet Archive 开放影片",
       "description": "浏览和播放 Internet Archive 中明确标注为 Creative Commons 或公版、且提供公开 MP4 下载的影片。",
       "requiredVersion": "0.0.1",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": "Cashbox",
-      "url": "http://192.168.66.46:8080/widgets/internet_archive.js"
+      "url": "https://raw.githubusercontent.com/onginye-ctrl/rex-widgets/main/widgets/internet_archive.js"
     }
   ]
 }
