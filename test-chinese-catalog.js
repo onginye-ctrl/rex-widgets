@@ -2,7 +2,11 @@ const fs = require("fs");
 const path = require("path");
 const assert = require("assert/strict");
 
-const widgetPath = path.join(__dirname, "widgets", "chinese_catalog.js");
+const widgetPath = process.argv[2]
+  ? path.resolve(process.argv[2])
+  : path.join(__dirname, "widgets", "chinese_catalog.js");
+const expectedId = process.argv[3] || "org.catalog.chinese";
+const expectedVersion = process.argv[4] || "1.0.0";
 const source = fs.readFileSync(widgetPath, "utf8");
 const calls = [];
 
@@ -59,7 +63,8 @@ async function run() {
   const { metadata, loadList, search } = installWidget();
 
   assert.match(source.trimStart(), /^WidgetMetadata\s*=\s*\{/);
-  assert.equal(metadata.id, "org.catalog.chinese");
+  assert.equal(metadata.id, expectedId);
+  assert.equal(metadata.version, expectedVersion);
   assert.equal(metadata.search.functionName, "search");
 
   const list = await loadList({ category: "movie_popular", region: "all", page: 1 });

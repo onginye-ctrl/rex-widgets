@@ -5,21 +5,12 @@
   "widgets": [
     {
       "id": "org.archive.openmovies",
-      "title": "Internet Archive 开放影片",
-      "description": "浏览和播放 Internet Archive 中明确标注为 Creative Commons 或公版、且提供公开 MP4 下载的影片。",
-      "requiredVersion": "0.0.1",
-      "version": "1.0.1",
-      "author": "Cashbox",
-      "url": "https://raw.githubusercontent.com/onginye-ctrl/rex-widgets/main/widgets/internet_archive.js"
-    },
-    {
-      "id": "org.catalog.chinese",
       "title": "华语影视目录",
-      "description": "浏览华语电影与剧集的完整目录：热门、高分、最新，支持按地区筛选与关键词搜索。",
+      "description": "浏览华语电影与剧集：热门、高分、最新，支持按地区筛选与关键词搜索。",
       "requiredVersion": "0.0.1",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "author": "Cashbox",
-      "url": "https://raw.githubusercontent.com/onginye-ctrl/rex-widgets/main/widgets/chinese_catalog.js"
+      "url": "https://raw.githubusercontent.com/onginye-ctrl/rex-widgets/main/widgets/internet_archive.js?v=2.0.0"
     }
   ]
 }
