@@ -11,6 +11,15 @@
       "version": "1.0.1",
       "author": "Cashbox",
       "url": "https://raw.githubusercontent.com/onginye-ctrl/rex-widgets/main/widgets/internet_archive.js"
+    },
+    {
+      "id": "org.catalog.chinese",
+      "title": "华语影视目录",
+      "description": "浏览华语电影与剧集的完整目录：热门、高分、最新，支持按地区筛选与关键词搜索。",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.0",
+      "author": "Cashbox",
+      "url": "https://raw.githubusercontent.com/onginye-ctrl/rex-widgets/main/widgets/chinese_catalog.js"
     }
   ]
 }
